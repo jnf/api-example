@@ -1,0 +1,6 @@
+<h1>Yay Weather!</h1>
+<%= form_tag city_redirect_path do %>
+  <%= label_tag :city %>
+  <%= text_field_tag :city %>
+  <%= submit_tag 'WEATHER ME' %>
+<% end %>
